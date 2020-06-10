@@ -21,6 +21,9 @@ COMMAND                 DESCRIPTION
 :ubt! :x                --------""--------
 :oops                   Undo last :ubt.
 
+:args FN                Metainformation for function FN (e.g. guard)
+:pe t                   Definition information for t
+
 (defthm ...)            Prove a theorem.
 (defthmd ...)           Prove a theorem and then disable it.
 (defmacro ...)          Define a macro.
