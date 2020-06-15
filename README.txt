@@ -31,6 +31,13 @@ COMMAND                 DESCRIPTION
 (defconst ...)          Define a constant. Constants need their names to be
                         enclosed in asterisks like *this-constant*.
 
+(set-gag-mode ...)      Set the prover chattiness.
+(gag-mode)              Check what the current chattiness setting is.
+(start-proof-tree)      Enter a mode where annotated proof trees are printed
+                        on failed attempts.
+(stop-proof-tree)       Exit the proof tree mode.
+
+
 (There appears to be more xxxd-forms of the above, e.g. defund.)
 
 GUARDS
