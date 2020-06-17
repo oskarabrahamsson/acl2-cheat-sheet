@@ -12,6 +12,7 @@ COMMAND                 DESCRIPTION
 ^D                      --------""--------
 :q                      Exit ACL2 (stay in the lisp).
 :lb                     Start ACL2 (from the lisp).
+^C/Signal-2             Interrupt current event (e.g. slow proof)
 
 :doc KEYWORD            View documentation on KEYWORD.
 
@@ -33,6 +34,9 @@ COMMAND                 DESCRIPTION
 
 (set-gag-mode ...)      Set the prover chattiness.
 (gag-mode)              Check what the current chattiness setting is.
+:pso                    Print stored output - last event at full verbosity
+:psof "filename"        Print stored output to a file
+
 (start-proof-tree)      Enter a mode where annotated proof trees are printed
                         on failed attempts.
 (stop-proof-tree)       Exit the proof tree mode.
