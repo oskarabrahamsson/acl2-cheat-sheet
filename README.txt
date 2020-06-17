@@ -42,6 +42,9 @@ COMMAND                 DESCRIPTION
 (stop-proof-tree)       Exit the proof tree mode.
 
 
+:trans '(list* 1 2 x)   Expand macros in a clause (how it looks to meta-funs)
+
+
 (There appears to be more xxxd-forms of the above, e.g. defund.)
 
 GUARDS
